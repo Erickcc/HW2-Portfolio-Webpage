@@ -1,110 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Erick's Portfolio</title>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Erick's Portfolio</title>
-        <link rel="stylesheet" href="./assets/css/reset.css" />
-        <link rel="stylesheet" href="./assets/css/style.css" />
-    </head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 
+  <body>
+    <header>
+      <h1 class="header-title">Portfolio</h1>
+      <ul class="header-list">
+        <li>
+          <a href="#about-section">About me</a>
+        </li>
+        <li>
+          <a href="#work-section">Work</a>
+        </li>
+        <li>
+          <a href="#contact-section">Contact me</a>
+        </li>
+        <li>
+          <a href="#">Resume</a>
+        </li>
+      </ul>
+    </header>
 
-    <body>
-        <header>
-            <section class="header-container">
-                <h1 class="header-title">Portfolio</h1>
-                <ul class="header-list">
-                    <li>
-                        <a href="#about-section">About me</a>
-                    </li>
-                    <li>
-                        <a href="#work-section">Work</a>
-                    </li>
-                    <li>
-                        <a href="#contact-section">Contact me</a>
-                    </li>
-                </ul>
-            </section>
-        </header>
+    <main>
+      <div class="hero-image">
+        <div class="hero-text">
+          <h2>A quick overview</h2>
+        </div>
+      </div>
 
-        <main>
-            <div class = "hero-image">
-                <div class = "hero-text">
-                    <h2>A work in progress</h2>
-                </div>
+      <div class="main-content">
+        <div class="about-me">
+          <div class="lhs">
+            <h2>About</h2>
+            <h2>Me</h2>
+          </div>
+          <div class="about-me-rhs">
+            <div class="rhs-profile">
+              <img
+                class="profile-image"
+                src="./assets/images/Profile-Picture.JPG"
+              />
             </div>
-            <section class = "body-and-footer-layout">
-                <section id="about-section" class = "about-container">
-                    <div class = "about-left-hand-side common-formatting-lhs">
-                        <h2>About</h2>
-                        <h2>Me</h2>                       
-                    </div>
-                    <div class = "about-right-hand-side common-formatting-rhs">
-                        <p>My name is Erick Guadalupe Contreras Castañeda, I am 25 years old and I am a mechatronics engineer graduated from the ITESM. I am currently
-                            enrolled in the Coding Bootcamp that is being imparted by Trilogy Education Services through the ITESM. My favorit hobbies
-                            are playing the classical guitar, listening to music, playing video games and browsing the internet in search technological news.
-                        </p>
-                        <p>
-                            I have a basic knowledge in Python, Javascript, CSS, HTML and intermediate knwoledge in C, C++ and Java. Most of my work so far has had
-                            a low level programming aproach in order build a device that was able to fulfill a task that requires some sort of physical movement. These
-                            devices often had electronic elements that were interacting with actuators and that behaved following the requirements dictated by the control
-                            and interpreted by the microcontroller.
-                        </p>
-                    </div>
-                </section>
+            <div class="rhs-introduction">
+              <p>
+                My name is Erick Guadalupe Contreras Castañeda, I am 25 years
+                old and I am a mechatronics engineer graduated from the ITESM. I
+                am currently enrolled in the Coding Bootcamp that is being
+                imparted by Trilogy Education Services through the ITESM. My
+                favorit hobbies are playing the classical guitar, listening to
+                music, playing video games and browsing the internet in search
+                technological news.
+              </p>
+              <br />
+              <p>
+                I have a basic knowledge in Python, Javascript, CSS, HTML,
+                Node.js and intermediate knwoledge in C, C++ and Java as well as
+                experience with bootstrap and foundation frameworks for CSS.
+              </p>
+            </div>
+          </div>
+        </div>
 
-                <section id="work-section" class = "work-container">
-                    <div class = "work-left-hand-side common-formatting-lhs">
-                        <h2>Work</h2>
-                    </div>
-                    <div class = "work-right-hand-side common-formatting-rhs">
-                        <div class="main-work-image">
-                            <img src="./assets/images/1.png" alt="Main project placeholder">
-                            <h2>Coming soon</h2>
-                        </div>
-                        <div class="sub-work-image">
-                            <img src="./assets/images/2.jpg" alt="Secondary project #1 placeholder">
-                            <h2>Coming soon</h2>
-                        </div>
-    
-                        <div class="sub-work-image">
-                            <img src="./assets/images/3.jpg" alt="Secondary project #2 placeholder">
-                            <h2>Coming soon</h2>
-                        </div>
-    
-                        <div class="sub-work-image">
-                            <img src="./assets/images/3.jpg" alt="Secondary project #3 placeholder">
-                            <h2>Coming soon</h2>
-                        </div>
-    
-                        <div class="sub-work-image">
-                            <img src="./assets/images/2.jpg" alt="Secondary project #4 placeholder">
-                            <h2>Coming soon</h2>
-                        </div>    
-                    </div>
-                </section>
+        <div class="work">
+          <div class="lhs">
+            <h2>Work</h2>
+          </div>
+          <div class="rhs images">
+            <div class="main-image">
+              <img src="./assets/images/1.png" alt="Main project placeholder" />
+              <h3>Coming soon</h3>
+            </div>
+            <div class="secondary-image" id="secondary-1">
+              <img src="./assets/images/1.png" alt="Main project placeholder" />
+              <h3>Coming soon</h3>
+            </div>
+            <div class="secondary-image" id="secondary-2">
+              <img src="./assets/images/1.png" alt="Main project placeholder" />
+              <h3>Coming soon</h3>
+            </div>
+            <div class="secondary-image" id="secondary-3">
+              <img src="./assets/images/1.png" alt="Main project placeholder" />
+              <h3>Coming soon</h3>
+            </div>
+            <div class="secondary-image" id="secondary-4">
+              <img src="./assets/images/1.png" alt="Main project placeholder" />
+              <h3>Coming soon</h3>
+            </div>
+          </div>
+        </div>
 
-                <footer id="contact-section" class="footer-container">
-                    <div class="footer-left-hand-side common-formatting-lhs">
-                            <h2>Contact</h2>
-                            <h2>Me</h2>
-                    </div>
-
-                    <div class="footer-right-hand-side common-formatting-rhs">
-                        <ul class="footer-list">
-                            <li><a href="#">555.555.5555</a></li>
-                            <li><a href="#">Erickcc06@gmail.com</a></li>
-                            <li>
-                                <a href="https://github.com/Erickcc" target="_blank">GitHub</a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/erickgcc/" target="_blank">LinkedIn</a>
-                            </li>
-                        </ul>
-                    </div>
-                </footer>
-            </section>
-        </main>
-    </body>
+        <div class="contact">
+          <div class="lhs">
+            <h2>Contact</h2>
+          </div>
+          <div class="rhs">
+            <ul class="contact-list">
+              <li>
+                <i class="fa fa-mobile-phone phone-icon"></i>
+                <h4>+52 667-2132-232</h4>
+              </li>
+              <li>
+                <i class="fa fa-envelope"></i>
+                <h4>Erickcc06@gmail.com</h4>
+              </li>
+              <li>
+                <i class="fa fa-github"></i>
+                <a href="https://github.com/Erickcc" target="_blank">Github</a>
+              </li>
+              <li>
+                <i class="fa fa-linkedin-square"></i>
+                <a href="https://www.linkedin.com/in/erickgcc/" target="_blank"
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
