@@ -137,7 +137,10 @@ header {
   padding-left: 10px;
   text-align: justify;
   text-justify: inter-word;
-  font-size: 27px;
+}
+
+.rhs-introduction p {
+  font-size: 30px;
 }
 
 .about-me-rhs {
@@ -248,8 +251,6 @@ header {
   .profile-image {
     max-width: auto;
     height: 500px;
-    margin-left: 0;
-    margin-right: 0;
   }
 
   .hero-text {
